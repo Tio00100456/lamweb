@@ -127,21 +127,25 @@ nav {
     color: #ff0000;
 }
 
-.product-grid .sanpham{
-    width: 300px;
-    height: 300px;
-    margin-left: 40px;
+h1{
+    font-size: 30px
+    display: inline;
+    margin-right: 10px;
 }
-
-
+.view-all{
+    display: inline;
+    margin-left: 80%;
+}
+.product-grid img {
+    width: 200px;
+    height: 230px;
+}
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     width: 100%;
-    height: 100%;
-    margin-left: 20%;
-    position: relative;
+   
 }
 
 .product-card {
@@ -151,34 +155,10 @@ nav {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    position: absolute;
-    top: 0px;
-    left: 400px;
-    right: 700px;
-    bottom: -84px;
 }
-
-.product-title{
-    padding: 10px;
-    color: #000000;
-    font-weight: 600;
-    text-align: left;;
-    display: block;
-}
-
-.product-price{
-    color: #ff0000;
-}
-
-.coler_mau{
-    display:flex;
-    padding: 10px;
-    text-align: left;
-}
-
 .product-card .color-options img {
-    margin-right: 50%;
-    width: 50px;
+    margin-right: 70%;
+    width: 20px;
     height: auto;
     display: inline-block;
     
@@ -194,10 +174,25 @@ nav {
     color: #ff0000;
     border: 2px solid #ff0000; 
 }
-.buy{
-    background-color: #ff0000;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
+
+.product-title {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+    display: block;
+}
+.product-title:hover{
+    color: orangered;
+}
+.product-price {
+    font-size: 20px;
+    color: #ff2b2b;
+    font-weight: bold;
+    margin: 10px ;
+}   
